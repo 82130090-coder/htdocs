@@ -1,0 +1,117 @@
+body{
+    background-color: #333;
+}
+.product-card {
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    padding: 20px; 
+    padding-left: 28px;
+    padding-right: 28px;
+    margin: 15px; 
+    text-align: center; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    background-color: white; 
+    width: 200px; 
+}
+
+.product-image {
+    height: 210px;
+    width: 210px;
+   
+    border-radius: 10px; 
+}
+
+.product-title {
+    font-size: 1.5em; 
+    color: #333; 
+    margin: 10px 0; 
+}
+
+.product-description {
+    font-size: 1em; 
+    color: #666; 
+    margin: 10px 0; 
+}
+
+.product-price {
+    font-size: 1.2em; 
+    color: #ffbe33;
+    margin: 10px 0; 
+}
+
+#categorySelect {
+    width: 100%; 
+    padding: 10px; 
+    margin: 10px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    background-color: #f9f9f9; 
+    cursor: pointer; 
+}
+
+
+#categorySelect:hover {
+    background-color: #e9e9e9; 
+}
+
+#categorySelect:focus {
+    border-color: #ffbe33;
+    outline: none; 
+}
+.add-to-cart {
+    background-color: #333; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.add-to-cart:hover {
+    background-color: #e69c00; 
+}
+
+#product-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+}
+.inputs {
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    padding: 20px; 
+    margin: 20px auto; 
+    max-width: 400px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+    flex-direction: column;
+    gap: 15px; 
+}
+
+button {
+    background-color: #ffbe33;
+    color: #333;
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #e69c00; 
+
+}
+
+a {
+    text-align: center; 
+    color: #ffbe33;
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+a:hover {
+    color: #e69c00; 
+}
