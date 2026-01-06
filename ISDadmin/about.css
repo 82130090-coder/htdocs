@@ -21,7 +21,9 @@ body {
     text-decoration: none; 
     color: white; 
   }
-  
+  .About-container{
+    display: flex;
+  }
   .navbar a:hover {
     color:  #e69c00 ;
   }
